@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+span{
+        display: block;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 15vh;
+    }
+    .zero{
+        background-color: #e45555;
+    }
+    .one{
+        background-color: #b6ff8b;
+    }
+    .two{
+        background-color: #b0d2ff;
+    }
+    .three{
+        background-color: #e4b155;
+    }
+    .four{
+        background-color: #e455e4;
+    }
+    .five{
+        background-color: #55e4e4;
+    }
+    .six{
+        background-color: #e29595;
+    }
+    .seven{
+        background-color: #45b142;
+    }
+    .eight{
+        background-color: #5593e4;
+    }
+    div{
+        display:grid;
+        justify-content: space-between;
+        row-gap: 4.5vh;
+        grid-template-columns: repeat(3, 15vh);
+        grid-template-rows: repeat(3, 15vh);
+    }
+    @media (max-width:340px) {
+        span{
+            width: 75px;
+            height: 75px;
+            line-height: 10vh;
+        }
+    }
+</style>
+    <div>
+        <span class="zero">1</span>
+        <span class="one">2</span>
+        <span class="two">3</span>
+        <span class="three">4</span>
+        <span class="four">5</span>
+        <span class="five">6</span>
+        <span class="six">7</span>
+        <span class="seven">8</span>  
+        <span class="eight">9</span>
+    </div>
+</body>
+</html>
